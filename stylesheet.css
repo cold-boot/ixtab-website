@@ -1,0 +1,123 @@
+* {
+	margin: 0px;
+}
+body {
+	background: #222222;
+	color: #FFFFFF;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 16px;
+}
+a {
+	color: #79cdcd;
+	transition: .2s;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+}
+.linkbar a {
+	padding: 1% 2% 1% 2%;;
+}
+.linkbar a:hover {
+	color: #FFFFFF;
+	background: #333333;
+}
+.topbar {
+	padding: .5% 2% .5% 2%;
+	background: #222222;
+	box-shadow: 5px 0px 5px #111111;
+	border-bottom: 2px solid #000000;
+	color: #f0ffff;
+	#height: 25px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 66;
+}
+.barspacer {
+	margin: 2% 0 2% 0;
+	width: 100%;
+}
+.logo {
+	float: left;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+}
+.linkbar {
+	margin-left: 1%;
+	min-width: 50%;
+	display: inline-block;
+}
+.sidebar {
+	background: #333333;
+	border: 2px solid #000000;
+	box-shadow: 0px 0px 5px #111111;
+	border-radius: 2px;
+	color: #FFFFFF;
+	width: 20%;
+	display: inline-block;
+	float: right;
+	margin: 1% 0 2% 0;
+	padding: 1% 2% 1% 2%;
+}
+.sidebar h3 {
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 1.5%;
+}
+.main {
+	float: left;
+	width: 74%;
+}
+.content {
+	#position: relative;
+	#top: 7.5%;
+	font-size: 95%;
+	padding: 1% 4% 1% 4%;
+	min-height: 85%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (max-width: 480px) {
+        .main {
+                width: 98%;
+		padding-bottom: 30%;
+        }
+	.sidebar, .content {
+		float: none;
+		width: 90%;
+	}
+}
+
+.inner {
+	padding: 2%;
+}
+h1 {
+	font-family: "Arial Narrow",Arial,sans-seriffont-family: "Arial Narrow",Arial,sans-serif;
+	font-size: 100%;
+	font-stretch: expanded;
+}
+.footer {
+	position: fixed;
+	bottom: 0px;
+	background: #444444;
+	color: #FFFFFF;
+	width: 100%;
+	text-align: right;
+	border-top: 2px solid #000000;
+}
+.contactbar {
+	background: #222222;
+	color: #FFFFFF;
+}
+.contactbar .inner {
+	padding: 1%;
+}
+.sidebar a:hover, .footer a:hover {
+	color: #FFFFFF;
+}
+p {
+	margin-bottom: 10px;
+}
