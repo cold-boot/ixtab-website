@@ -4,8 +4,7 @@ error_reporting(E_ALL); ini_set('display_errors','1');
 // Database PDO connection
 $host = "localhost";
 $username = "root";
-$password = "niggercuntskid";
-$database = "ixtab";
+$password = "";
 
 $details = "mysql:dbname=".$database.";host=".$host;
 try {
